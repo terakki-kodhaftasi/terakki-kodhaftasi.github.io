@@ -1,7 +1,7 @@
 // Service Worker – derleme sırasında vite.config.ts bu şablondan dist/sw.js üretir (sürüm ve dosya listesi).
 // Kişisel veri önbelleğe alınmaz: yalnızca sitenin kendi dosyaları; API (supabase.co) ve Google'a dokunulmaz.
-const SURUM = "0776a29397a6";
-const DOSYALAR = ["./","./assets/index-CU5MlZyL.js","./assets/index-CxdqKRWv.css","./favicon.svg","./index.html","./logo/eu-codeweek.svg","./logo/tvo.png"];
+const SURUM = "f68fb66189ee";
+const DOSYALAR = ["./","./assets/index-B7qS9G2U.js","./assets/index-qDREqFBW.css","./favicon.svg","./index.html","./logo/eu-codeweek.svg","./logo/tvo.png"];
 const ONBELLEK = "terabit-" + SURUM;
 const AG_SURESI = 4000; // ms; zayıf Wi-Fi'da önbellekteki kabuk açılır
 
